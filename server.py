@@ -28,7 +28,7 @@ def search_list():
 def result_list():
     pw = os.getenv(r'PW')
     usr = os.getenv(r'DB_USR')
-    conn = psycopg2.connect(os.environ['postgresql://schmidm:TLelCJlDMRTzEO39AB9b0zZsav15WsUg@dpg-d26ggm3ipnbc73b3lgm0-a/bfb_db'])
+    conn = psycopg2.connect(os.environ['DATABASE_URL'])
 
      #checking everything filterd for or against as well as sorted by 
     red_checked = request.forms.get('filter_red') 
@@ -116,7 +116,7 @@ def upload_list():
 
         pw = os.getenv(r'PW')
         usr = os.getenv(r'DB_USR')
-        conn = psycopg2.connect(os.environ['postgresql://schmidm:TLelCJlDMRTzEO39AB9b0zZsav15WsUg@dpg-d26ggm3ipnbc73b3lgm0-a/bfb_db'])
+        conn = psycopg2.connect(os.environ['DATABASE_URL'])
 
         cursor = conn.cursor()
          #cursor.execute('TRUNCATE "BFB".testdecklist;') #if your going to add to a decklist do that somehwere else 
@@ -199,7 +199,7 @@ def upload_list():
 def upload_list():
     pw = os.getenv(r'PW')
     usr = os.getenv(r'DB_USR')
-    conn = psycopg2.connect(os.environ['postgresql://schmidm:TLelCJlDMRTzEO39AB9b0zZsav15WsUg@dpg-d26ggm3ipnbc73b3lgm0-a/bfb_db'])
+    conn = psycopg2.connect(os.environ['DATABASE_URL'])
     deck_name = request.forms.get('deck_name_search')  
 
 
