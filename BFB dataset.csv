@@ -1,0 +1,690 @@
+card_id,card_name,mana_cost,strength,health,duration ,starting_power,card_text,violet,red,keywords,card_type,
+1,Investment,2,,,,,Increase your mana cap by one.,TRUE,FALSE,,spell,
+2,Ponder,0,,,,,"Look at the top three cards of any deck, then put them back in the order they were, or shuffle them back into the deck.",FALSE,FALSE,,spell,
+3,Shadow Government,2,,,,,"Look at the top four cards of any deck, you may discard one, then put them back in any order you want.",FALSE,FALSE,,spell,
+4,Pipe Bomb,0,,,,,"Upon drawing or burning this card it is immediately played.
+The person who played this card takes 4 damage and burns 1. ",FALSE,FALSE,,spell,
+5,Pot of Greed,3,,,,,"Draw two cards.
+You may roll your dice.",FALSE,TRUE,,spell,
+6,Repetition,X,,,,,"X = The cost of the top card of the discard pile plus one.
+Play the top card of the discard pile.",FALSE,TRUE,,spell,
+7,Nuke,5,,,,,Destroy all creatures. All of them. Even yours.,FALSE,TRUE,,spell,
+8,Lightning,1,,,,,Deal 1 damage to a target of your choice.,FALSE,FALSE,,spell,
+9,Fire Blast,2,,,,,Deal 2 damage to a target of your choice.,TRUE,TRUE,,spell,
+10,Stoning,3,,,,,Deal 4 damage to a target of your choice.,FALSE,TRUE,,spell,
+11,Divine Smite,4,,,,,Deal 5 damage to a target of your choice,FALSE,FALSE,,spell,
+12,Cappy,4,,,,,Chose an opponent's creature. For one combat you control that creature instead.,FALSE,FALSE,,spell,
+13,Vanilla Ice,1,,,,,Freeze a creature.,TRUE,TRUE,,spell,
+14,Nuh uh,2,,,,,Play this to cancel the effects of any one spell your opponent plays. They still pay the mana cost.,FALSE,FALSE,,spell,
+15,Racial Slur,1,,,,,"As long as this card is attached to a creature that creature must attack every turn if able.
+It can not use it's tapped abilities.",FALSE,FALSE,,attachment ,
+16,Gang War,1,,,,,"Recyclable
+Whenever this creature attacks flip a coin. If heads it temporarily gains two strength, if tails it temporarily loses one strength.",FALSE,TRUE,Recyclable,attachment ,
+17,Fukouna Shoujo 03,2,,,,,"Choose one creature, you may discard as many attachments as you want from that creature.",FALSE,TRUE,,spell,
+18,Explosion,4,,,,,Destroy a creature of your choice.,TRUE,FALSE,,spell,
+19,Congratulations,15,,,,,"As an additional cost to play this card pay 15 mana cap.
+You win. Good job… I guess.",FALSE,FALSE,,spell,
+20,Virginity Shield,3,,,,,"Recyclable
+This creature gains Hexproof.",FALSE,FALSE,Recyclable,attachment ,
+21,UOOOH!!!,3,,,,,Kill all creatures that cost 2 mana or less. Even your own.,FALSE,FALSE,,spell,
+22,Alt Account,5,,,,,"Recyclable
+When this creature would parish for any reason, you may discard this card and resurrect the creature it's attached to.",FALSE,FALSE,Recyclable,attachment ,
+23,Options,4,,,,,"Look at the top three cards of your deck. You may play one whose cost is equal to or less than your current mana cap immediately for free, shuffle the other two back into the pile.",FALSE,TRUE,,spell,
+24,Nerd Emoji,1,,,,,Play this to cancel the effects of any one spell your opponent plays. They are refunded the full mana cost.,FALSE,FALSE,,spell,
+25,Vent,1,,,,,Bounce a creature you control.,FALSE,TRUE,,spell,
+26,A.I. Core,5,0,3,,,While A.I. Core is alive all your spells cost 1 less mana. Minimum cost of zero.,FALSE,TRUE,,creature,
+27,Pipkin Pippa,2,3,1,,,"Hates carrots.
+You may bounce this bunny whenever.",FALSE,FALSE,,creature,
+28,Among Us Bean,1,1,1,,,When Among Us Bean dies all players draw a card.,FALSE,FALSE,,creature,
+29,Wendigo,4,5,5,,,,FALSE,TRUE,,creature,
+30,Lego Rat,2,1,1,,,Deathtouch,FALSE,FALSE,Deathtouch,creature,
+31,Robot Cow,2,2,2,,,Add a copy of Cheese (62) to your hand when played.,FALSE,TRUE,,creature,
+32,Trollface,3,3,3,,,Haste.,FALSE,FALSE,Haste,creature,
+33,Blimp,2,1,2,,,Flying.,FALSE,FALSE,Flying,creature,
+34,Wall-nut,0,0,2,,,Defender,FALSE,FALSE,Defensive,creature,
+35,T-Rex,3,2,2,,,Double Strike.,FALSE,TRUE,Double Strike,creature,
+36,Noelle,5,4,2,,,"First Strike. Cryophilic.
+If Noelle deals damage to a player, they do not draw a card at the start of their next turn.
+When Noelle destroys a creature, freeze a creature of your choice.",FALSE,FALSE,"First Strike, Cryophilic",creature,
+37,Iron Golem,3,3,4,,,Defender.,FALSE,TRUE,Defensive,creature,
+38,Kanna,3,3,2,,,Hunt.,TRUE,FALSE,Hunt,creature,
+39,Warhammer Army,X,X,X,,,You may spend as much mana as you want to play Warhammer Army. When you do it gains health and damage equal to the amount of mana spent.,TRUE,TRUE,,creature,
+40,Tom Nook,3,1,2,,,"If Tom Nook is alive at the start of your opponent's turn, they lose one mana after refilling.",FALSE,FALSE,,creature,
+41,Creeper,2,5,1,,,"Haste.
+At the end of your turn, Creeper dies.",FALSE,FALSE,Haste,creature,
+42,Sunflower,2,0,1,,,"Defensive
+Once per turn: Gain one mana.",FALSE,TRUE,Defensive,creature,
+43,Barqbarian,1,1,1,,,"As long as Barqbarian is attacking/blocking with at least one other creature, it gains one strength and one health.",FALSE,TRUE,,creature,
+44,Shadow Wizards,3,2,2,,,Tap: Deal two damage to a target of your choice.,TRUE,FALSE,,creature,
+45,Portal of Power,1,0,1,,,"Tap: Reveal the top card of your deck, if it's a creature you may play it for one less mana immediately.",FALSE,FALSE,,creature,
+46,Plastic Muncher,4,3,5,,,Hexproof. Cryophilic,FALSE,FALSE,"Hexproof, Cryophilic",creature,
+47,Freddy Fazbear,1,2,2,,,"Trample.
+Freddy Fazbear takes two turns to untap.",FALSE,TRUE,Trample,creature,
+48,Charger,4,4,3,,,Trample.,FALSE,TRUE,Trample,creature,
+49,Dart Monkey,1,1,1,,,"Max Twice per Turn, One Mana: Dart Monkey gains 1 strength and 1 health for one combat.",FALSE,FALSE,,creature,
+50,Legion,7,3,12,,,"Legion can block up to six creatures.
+Immune to deathtouch.
+For each creature blocking or being blocked by Legion, it gains two strength.",FALSE,FALSE,,creature,
+51,Gender-bender,1,,,,,"Recyclable
+Swap this creatures health and damage.",TRUE,FALSE,Recyclable,attachment ,
+52,Schizophrenia,4,,,,,"Flip a coin. If heads, draw a card. If the card is a creature you must play that creature on your opponent's side. It gains “When tapped deal 5 damage to this cards owner.”. If this card is anything else, deal two damage for every instance of the letter “x” on the board. If the coin flip is tails, refer to your maximum mana counter. If it's even, then kill 1 random creature controlled by each player, if it's odd then choose an opponent, you gain one health for each creature that opponent controls.
+Shuffle two copies of Schizophrenia into your deck.",FALSE,TRUE,,spell,
+53,I'm not reading all that,3,,,,,Any text on that creature other than it's base stats is ignored.,FALSE,FALSE,,attachment ,
+54,Bread,2,,,,,"Recyclable
+This creature gains three health.",FALSE,FALSE,Recyclable,attachment ,
+55,Handgun,2,,,,,"Recyclable
+This creature has first-strike.",TRUE,TRUE,Recyclable,attachment ,
+56,Goblin,3,1,1,,,"Goblin gains two health for each card attached to it.
+When played draw a card.",FALSE,TRUE,Recyclable,creature,
+57,Rat King,3,2,1,,,"When played, create two rat creature tokens (T1)",FALSE,TRUE,,creature,
+58,Obese Rat,2,1,2,,,Sacrifice a creature: Obese Rat permanently gains 1 health and 1 strength.,FALSE,FALSE,,creature,
+59,Michael Jackson,6,5,5,,,Michael Jackson is unaffected by cards that cost zero to two mana.,FALSE,TRUE,,creature,
+60,Your Mother,5,6,6,,,,FALSE,FALSE,,creature,
+61,Surprise,2,,,,,Bounce a creature.,FALSE,TRUE,,spell,
+62,Cheese,2,,,,,Create a rat token (T1) with Haste and give all creatures you control one extra health for one combat.,FALSE,FALSE,,spell,
+63,Distraction,3,,,,,Steal a random card from your opponent's hand.,TRUE,TRUE,,spell,
+64,Krill Yourself,5,,,,,"Choose a player, multiply their hp by 0.5, rounding up if there is a decimal.",FALSE,FALSE,,spell,
+65,Piracy,4,,,,,Play this to cancel the effects of any one spell your opponent plays. They still pay the mana cost. That spell is added to your hand instead of discarded.,FALSE,TRUE,,spell,
+66,Moushley,3,1,2,,,"Tap: Summon a Rat (T1).
+Tap, pay two mana: Draw a card.",FALSE,FALSE,,creature,
+67,Todd Howard,4,3,3,,,"When Todd Howard would die flip a coin, if heads resurrect Todd Howard.",FALSE,TRUE,,creature,
+68,The Thinker,1,1,1,,,Tap: look at the top two cards of your deck. You may shuffle the cards back into your deck or place them back at the top.,FALSE,FALSE,,creature,
+69,Chihiro Fujisaki,4,1,2,,,"Upon dying, you may resurrect Chihiro Fujisaki as an Alter Ego (T2) creature token.",FALSE,FALSE,,creature,
+70,Joe Biden,3,3,3,,,When Joe Biden attacks/defends roll a D6. His strength is set to the result of that roll for this combat.,FALSE,FALSE,,creature,
+71,Carrot Juice,5,,,,,All creatures with the letter “C” on them are destroyed.,FALSE,FALSE,,spell,
+72,The D6,1,,,,,"Shuffle your hand into your deck, then draw cards equal to the amount you had before, not including The D6.",FALSE,TRUE,,spell,
+73,Fog of War,1,,,3,,"All creatures have stealth.
+If another weather effect is already in play this card costs one more mana.",FALSE,FALSE,,weather,
+74,The Tragedy ,6,,,,,Destroy two creatures of your choosing.,TRUE,FALSE,,spell,
+75,Charging Ki,2,,,,,"Recyclable
+This creatures strength is increased by two.",FALSE,FALSE,Recyclable,attachment ,
+76,Bloonarius the Inflator,5,X,4,,,"Summon three bloon token creatures (T3).
+Bloonarius' attack is equal to the number of Bloons you control.",FALSE,TRUE,,creature,
+77,Baked Potato ,2,0,1,,,"When played or summoned, if you do not have a detonator card in your hand, create one (T4).
+When destroyed, Baked Potato deals 4 damage to its owner.
+One Mana: Transfer control of Baked Potato to another player.",FALSE,FALSE,,creature,
+78,Killer Queen,5,4,4,,,At the start of your turn: Summon a Baked Potato under your control (77) or shuffle a Pipe Bomb into your opponent's deck (4).,TRUE,TRUE,,creature,
+79,Gravelord Lych,4,3,4,,,At the start of your turn: Summon a Baked Potato under your control (77) or shuffle a Pipe Bomb into your opponent's deck (4).,TRUE,FALSE,,creature,
+80,Vortex: Deadly Master of Air,4,4,3,,,"As long as Vortex is alive, all Bloon creature tokens you control gain 1 strength.
+As long as you control 5 Bloon creature tokens Vortex gains flying.",FALSE,FALSE,,creature,
+81,Rubber Winds,1,,,,,Summon two Bloon token creatures (T3).,TRUE,TRUE,,spell,
+82,Holy Hand Grenade,4,,,,,"Choose an opponent, deal 2 damage to each of their creatures.",FALSE,FALSE,,spell,
+83,Vore,3,,,,,"As an additional cost to play this card, sacrifice one of your creatures.
+Add that creatures base stats to another creature of your choice.",FALSE,TRUE,,spell,
+84,The Mechanism,2,,,,,This creature has two less health.,TRUE,TRUE,,attachment ,
+85,Slurp Juice,2,,,,,Target creature is immortal until the end of your turn.,TRUE,FALSE,,spell,
+86,Dreadbloon,5,4,1,,,"When played summon two Bloon creature tokens (T3).
+As long as you control a Bloon creature, Dreadbloon cannot die while attacking.",TRUE,FALSE,,creature,
+87,Hat Kid,2,2,4,,,"Haste. Reach.
+Any damage dealt to Hat Kid is permanent.",TRUE,TRUE,"Haste, Reach",creature,
+88,Matt,6,8,8,,,,FALSE,FALSE,,creature,
+89,Sprout Mole,0,1,1,,,,FALSE,FALSE,,creature,
+90,Aubrey,5,3,3,,,"First-Strike
+When Aubrey damages a creature but doesn't destroy it, bounce that creature.",TRUE,TRUE,First Strike,creature,
+91,Curse of the Abyss,2,,,,,Whenever this creature attacks it permanently loses two health.,FALSE,TRUE,,attachment ,
+92,Wii Ball,1,,,,,"Recyclable
+This creature gets minus one health and plus one strength.",FALSE,TRUE,Recyclable,attachment ,
+93,Wii Bowling,1,,,,,"Recyclable
+This creature gets minus one strength and plus one health.",FALSE,FALSE,Recyclable,attachment ,
+94,Taunt,5,,,,,All players take double damage until the start of your next turn.,TRUE,TRUE,,spell,
+95,Allegations,3,,,,,"As an additional cost to play this card, pay 3 mana cap.
+Choose an opponent, skip their next turn.",FALSE,FALSE,,spell,
+96,Flashpoint Michael,4,2,3,,,"First-strike.
+All creatures you control gain haste.",FALSE,TRUE,First Strike,creature,
+97,Dead Michael,3,0,1,,,Add two copies of Brain Rot to your hand (T5).,FALSE,TRUE,,creature,
+98,Big Brain Michael,4,1,2,,,Big Brain Michael,FALSE,TRUE,,creature,
+99,Rizz Michael,5,2,2,,,All creatures you control gain plus one strength and health.,TRUE,TRUE,,creature,
+100,The One Piece,10,0,1,,,"This creature may be targeted and defended like a player. This creature may never benefit from Hexproof.
+As long as you control The One Piece your mana fully replenishes after resolving the effects of any card you play.",TRUE,TRUE,,creature,
+101,Raining Normal Pills,3,,,3,,"All other weather effects cost an additional 3 mana.
+If another weather effect is already in play this card costs one more mana.",TRUE,TRUE,,weather,
+102,Engineer,4,2,3,,,Tap: Summon a Sentry token creature (T7) or increase a pre-existing Sentries strength and health by one.,FALSE,TRUE,,creature,
+103,Console Zord,9,6,6,,,"Trample
+When played destroy all creatures with 5 health or less. For each creature destroyed this way Console Zord gains +1/+1",FALSE,TRUE,Trample,creature,
+104,Calm Down,5,,,,,Search the top five cards of your deck. You may move as many of these five as you'd like to your discard pile. For every two cards discarded this way you may move one card from your discard pile into your hand. Afterwards shuffle.,FALSE,FALSE,,spell,
+105,Dual Wielding,4,,,,,"Recyclable
+This creature gains Double-Strike and Multiblock.",FALSE,TRUE,Recyclable,attachment ,
+106,Blizzard,3,,,3,,"Whenever a creature attacks, apply Freeze to it.
+If another weather effect is already in play this card costs one more mana.",FALSE,FALSE,,weather,
+107,Froslass,4,4,2,,,"Cryophilic
+If a weather effect is in play, Froslass is immune to damage from creatures.
+If your opponent has at least one Frozen creature, Froslass gains one strength",TRUE,FALSE,Cryophilic,creature,
+108,Melee Fox,4,3,3,,,First-Strike. Haste.,TRUE,FALSE,"First Strike, Haste",creature,
+109,Soviet Winter,2,,,,,Apply Freeze to all currently tapped cards.,TRUE,FALSE,,spell,
+110,CHARGE!!!,3,,,,,All creatures you control gain haste and first-strike until end of turn.,FALSE,TRUE,,spell,
+111,Ourple Fog,2,,,3,,"Whenever a non-zombie creature dies its owner may resurrect that creature as a Zombie token creature (T6).
+If another weather effect is already in play this card costs one more mana.",TRUE,FALSE,,weather,
+112,Flag Zombie,1,1,1,,,Haste. Horde.,FALSE,TRUE,"Haste, Horde",creature,
+113,Zergling,2,2,1,,,Horde. Trample.,TRUE,TRUE,"Horde, Trample",creature,
+114,Determination Vial,2,,,,,As an additional cost to play this card sacrifice as many creatures as you'd like. Summon an Amalgamation token creature (T8). Increase its strength and health by two for each creature sacrificed this way.,FALSE,TRUE,,spell,
+115,Peaceful Protest,3,,,,,All zero to one cost creatures gain two strength and one health until the end of your turn.,FALSE,TRUE,,spell,
+116,Sapping Storm,2,,,3,,"When played name three keywords. Until this effect is removed those three keywords are ignored.
+If another weather effect is already in play this card costs one more mana.",FALSE,TRUE,,weather,
+117,V1,7,5,4,,,"When V1 destroys a creature it restores it's health. This prevents death.
+During combat, give V1 one of the following of your choice:
+1) Pierce
+2) Blast 1. Blast 1. Blast 1.
+3) Plus 4 strength.",TRUE,TRUE,,creature,
+118,LAAT,3,2,3,,,Flying. Horde.,TRUE,TRUE,"Flying, Horde",creature,
+119,Javelin Throw,2,,,,,All creatures you control with Reach lose it and gain First-Strike and one strength for one combat.,TRUE,TRUE,,spell,
+120,Extra Inch,0,,,,,"Recyclable
+This creature gains Reach.",FALSE,FALSE,Recyclable,attachment ,
+121,Drone Swarm,2,,,3,,"At the start of your turn shuffle a pipe bomb into your deck (4).
+If another weather effect is already in play this card costs one more mana.",FALSE,TRUE,,weather,
+122,Bajookanese Soldier,4,3,2,,,When played shuffle a Pipe Bomb (4) into your opponent's deck.,FALSE,TRUE,,creature,
+123,Oppenheimer,3,2,3,,,When another player draws a Pipe Bomb (4) it explodes for one more damage.,FALSE,FALSE,,creature,
+124,C-Moon,1,0,0,,,Flip a deck of your choice upside-down. It functions the same but with the top card always revealed.,TRUE,TRUE,,spell,
+125,Delivery,3,,,,,Search your deck. You may shuffle as many cards from your deck as you'd like into your opponent's deck. Afterwards shuffle your deck.,FALSE,FALSE,,spell,
+126,Northern Lights,2,,,3,,"You may draw two cards per turn.
+If another weather effect is already in play this card costs one more mana.",TRUE,FALSE,,weather,
+127,Principal Skinner,2,1,2,,,"Tap: Discard a card, then draw a card.",TRUE,FALSE,,creature,
+128,Ultra Greed,10-X,5,5,,,For every other card in your hand Ultra Greed costs one less mana.,FALSE,FALSE,,creature,
+129,Crack Rocks,0,,,,,"As an additional cost to play this card pay one mana cap.
+Gain three mana.",FALSE,FALSE,,spell,
+130,Stocks,3,,,,,"When played place a D6 set to two on it. At the start of your turn flip a coin. If heads increase the dice by one, if tails decrease the dice by one. At any time, you may remove this card from your play area to gain mana equal to the dice.",FALSE,FALSE,,spell,
+131,Pollution Cloud,2,,,3,,"All creatures have 1 less strength and health.
+If another weather effect is already in play this card costs one more mana.",FALSE,FALSE,,weather,
+132,Kenny,3,2,2,,,When Kenny is killed add a Rat Swarm (134) to your hand. ,FALSE,TRUE,,creature,
+133,Shalltear Bloodfallen,6,6,6,,,Lifesteal 4.,TRUE,TRUE,Lifesteal 4,creature,
+134,Rat Swarm,2,,,,,"Destroy a creature with three or less health.
+Add a Rat (T1) to your hand.",FALSE,FALSE,,spell,
+135,The Last Supper,X,,,,,"This cards cost is equal to the number of players.
+Increase all players mana cap by one.
+This card burns on play",FALSE,FALSE,,spell,
+136,Blood Moon,3,,,3,,"All creatures must attack each turn if able. Increase lifesteal and poison amount by one.
+If another weather effect is already in play this card costs one more mana.",FALSE,TRUE,,weather,
+137,Anti-Air Gun,4,4,4,,,Reach.,FALSE,FALSE,Reach,creature,
+138,Michael Morbius,4,4,3,,,"Lifesteal.
+Tap: Transform into a Bat (T9).",FALSE,FALSE,Lifesteal,creature,
+139,Rally the Troops,3,,,,,Untap all creatures you control.,FALSE,FALSE,,spell,
+140,Domination,7,,,,,"Choose an opponent's creature, that creature and all copies of that creature are now under your control.",TRUE,TRUE,,spell,
+141,Rainbow,1,,,3,,"Swap all creatures damage and health.
+If another weather effect is already in play this card costs one more mana.",TRUE,TRUE,,weather,
+142,Swapbot,3,1,5,,,While attacking Swapbots stats are switched.,FALSE,FALSE,,creature,
+143,Tall-Nut,2,0,3,,,Reach. Defensive. Multiblock.,FALSE,FALSE,"Reach, Defensive, Multiblock",creature,
+144,Wall-Nut Bowling,5,,,,,"Summon two Wall-Nuts (34).
+Until end of turn all Wall-Nuts, Tall-Nuts, and Pea-Nuts lose defender and have Haste, Hunt, plus two strength, and cannot be blocked.",TRUE,TRUE,,spell,
+145,Vampire Trap,2,,,,,"Activates when your opponent declares an attack.
+Deal two damage to a creature they are attacking with, if the creature dies during combat heal four hp.",TRUE,TRUE,,trap,
+146,Meteor Shower,5,,,3,,"At the start of each players turn, attach On Fire!!! (T12) to one random creature.
+If another weather effect is already in play this card costs one more mana.",TRUE,TRUE,,weather,
+147,Sans,8,1,1,,,"First-Strike. Poison. Sextuple-Strike.
+When played, summon two Gaster Blasters (T44)",FALSE,FALSE,"First Strike, Poison, Sextuple-Strike",creature,
+148,Shedinja,5,1,1,,,"Hexproof.
+Shedinja is immune to damage during combat.",FALSE,TRUE,,creature,
+149,Mega Mushroom,4,,,,,"Give a creature plus 4 strength, 4 health, and trample for one combat.",FALSE,FALSE,,spell,
+150,Spiritual Advisor,4,,,,,"Recyclable
+This creature gains poison 2.",FALSE,FALSE,,attachment ,
+151,Rum,3,,,,,All creatures you control gain plus 2 strength until end of combat.,FALSE,TRUE,,spell,
+152,Piss-missile ,3,,,,,"Destroy a creature with flying, then deal one damage to another target of your choice.",FALSE,FALSE,,spell,
+153,Ditto,X,,,,,"Choose a creature you control, summon a copy of that creature under your control.
+This spells cost is equal to the cost of that creature plus one.",TRUE,FALSE,,spell,
+154,Vomit,4,,,,,Choose a player. They discard two cards of their choice.,FALSE,FALSE,,spell,
+155,Mage of Violet,1,,,,,"Search your deck for a card with purple, violet, or lavender somewhere in the card art, reveal it and add it to your hand. Then shuffle your deck.",TRUE,FALSE,,spell,
+156,Onomato Pairing,2,,,,,"If you have two of the same card in your hand, you may play them both for the price of one.",TRUE,FALSE,,spell,
+157,Uno,0,,,,,"You may only play this card if every card in your hand is named Uno.
+Draw four cards.",TRUE,TRUE,,spell,
+158,Dissociation,6,,,,,"Roll a D4. Trigger an effect based on the result
+1: Attach this card to a creature you control. It gains Hexproof, First-Strike, and Deathtouch.
+2: Choose an opponent. Add two copies of Brain Rot (T5) to your hand for each creature they control.
+3: Shuffle three copies of Dissociation into your deck. Then draw a card.
+4: Lose four mana cap. Gain four health.",TRUE,TRUE,,spell,
+159,Make your choice,1,,,,,Shuffle the top or bottom half of the discard pile into your deck.,FALSE,TRUE,,spell,
+160,The Hat of Discipline,6,,,,,Choose a creature. All instances of this creature are removed from the game (Including instances in players hands/decks.),TRUE,FALSE,,spell,
+161,Self Harm,0,,,,,Deal four damage to yourself. Gain two mana.,FALSE,TRUE,,spell,
+162,Make-A-Wish,7,,,,,"Name any card in the game, add a copy of it to your hand.",TRUE,FALSE,,spell,
+163,Dangling Keys,4,,,,,Change the target of a spell you didn't cast that costs 5 mana or less.,FALSE,FALSE,,spell,
+164,Green Thumb,0,,,,,"As an additional cost to play this card, pay your entire mana cap.
+For each one mana cap spent this way summon a Sunflower (42) with Haste.",FALSE,FALSE,,spell,
+165,Lucky Streak,2,,,,,"You may rig the outcome of one dice roll, coin flip, or other random event.",TRUE,TRUE,,spell,
+166,Rainbow Dash,6,5,5,,,Flying. Trample. Haste,TRUE,TRUE,"Flying, Trample, Haste",creature,
+167,Steven,4,3,3,,,Reach. First-Strike.,FALSE,FALSE,"Reach, First Strike",creature,
+168,Ebola-chan,4,1,4,,,Poison 3. Reach. Haste.,TRUE,TRUE,"Poison 3, Reach, Haste",creature,
+169,Norton Antivirus,3,2,4,,,Multiblock. Poison.,FALSE,TRUE,"Multiblock, Poison",creature,
+170,Dr. Zomboss,2,1,1,,,Horde. Lifesteal 2. Hexproof.,TRUE,TRUE,"Horde, Lifesteal 2, Hexproof",creature,
+171,The Prince,4,4,4,,,"Horde.
+When a creature is hoarded with the prince, it may not be un-hoarded. For each creature hoarded with the prince, he gains +1/+1",TRUE,TRUE,Horde,creature,
+172,Gordon Ramsay,4,3,3,,,"As long as Gordon is alive, spells that affect multiple creatures do nothing to your creatures when played.
+You cannot play spells that affect multiple creatures.",FALSE,TRUE,,creature,
+173,Tac-Waifu,4,4,4,,,"Pay one mana: Move an attachment from one creature you control to another.
+Tap: Return as many floating attachments you control as you'd like to your hand.",FALSE,FALSE,,creature,
+174,Tainted Judas,5,3,2,,,"Trample. First-Strike. Hunt. Taunt.
+If more than one creature blocks tainted Judas, he gains 3 strength for every creature after the first.",FALSE,TRUE,"Trample, First Strike, Hunt, Taunt",creature,
+175,Henry Stickmin,5,3,3,,,Whenever you would draw a card you may instead discard your hand and draw four cards.,FALSE,FALSE,,creature,
+176,Sylveon,2,1,1,,,"When a creature you control dies, place a counter on Sylveon.
+Tap: You may expend as many counters on Sylveon as you'd like. For each counter spent this way tap a creature of your choice.",FALSE,FALSE,,creature,
+177,Custom Creature,4,X,X,,,When played give CC whatever stats you'd like totaling six (example: 2 attack and 4 health). You may also name one keyword and give it to CC (Things like poison will always be at their lowest value). Choosing to add a keyword will reduce both of it's stats by one.,TRUE,FALSE,,creature,
+178,Chimpanzee,1,1,1,,,"Reach.
+Chimpanzee is immune to damage from flying creatures.",FALSE,FALSE,,creature,
+179,Spamton,3,2,2,,,You may pay two hp to gain one mana.,TRUE,FALSE,,creature,
+180,BonziBuddy,6,3,3,,,"When you would play or summon a creature, that creature is replaced by a copy of BonziBuddy.",TRUE,FALSE,,creature,
+181,The Disk,3,,,,2," +2: Draw a card and shuffle a copy of The Worm (T10) into your deck.
+-2: Shuffle two copies of The Worm into an opposing players deck.
+-6: Choose an opponent, for each copy of The Worm in their hand they take 7 damage2: Draw a card and shuffle a copy of The Worm (T10) into your deck.",FALSE,FALSE,,ancient evil,
+182,Cryptoland,3,,,,3," +1: Gain one mana. 
+0: Flip a coin. If heads Cryptoland gains three power, if tails you lose two mana. This can cause Debt (T28)
+-6: Gain six mana and draw four cards.",TRUE,TRUE,,ancient evil,
+183,German 4Chan,3,,,,3," +1: Destroy a creature that costs 2 mana or less, or create a rat (T1)
+-3: Create a Kanna (38) and attach a copy of Divine Treasure (T49) to it.
+-5: Choose an opponent, skip their next turn.",FALSE,FALSE,,ancient evil,
+184,(((Them))),5,,,,4," +2: Play or re-equip an attachment card for two less mana.
+-3: Add a copy of Jew Gold (T11) to your hand.
+-7: All creatures with attachments gain three strength and are immortal until the start of your next turn.",FALSE,FALSE,,ancient evil,
+185,Project Raven,3,,,,1,"All creatures you control have vigilance.
++2: View the top card of a deck. You may shuffle the card into that deck or place it back on top.
+-3: Choose an opponent. They must reveal their hand to you. Choose one of their cards and discard it.",FALSE,TRUE,,ancient evil,
+186,Ted Kaczynski,3,,,,4,"When you draw a pipe bomb you may discard it before it explodes.
++4: Discard a spell. 
+-2: Shuffle a Pipe Bomb into an opponent's deck.",FALSE,FALSE,,ancient evil,
+187,Chris Chan,5,,,,3," +1: Give a creature Haste and Trample for one turn. 
+-3: Draw cards until you have 5.
+-5: Summon a copy of Your Mother (60) and attach a copy of The Medallion (T50) to it.",TRUE,TRUE,,ancient evil,
+188,John Money,4,,,,2," +1: Give a creature Haste and Trample for one turn. 
+-3: Draw cards until you have 5.
+-5: Summon a copy of Your Mother (60) and attach a copy of The Medallion (T50) to it.",FALSE,FALSE,,ancient evil,
+189,Cool Rock,6,,,,6,"As long as you control Cool Rock you cannot take damage or die. When cool rock is destroyed its owner takes five damage.
++1: Sacrifice a creature.
+-10: Choose a player, they are killed immediately.",FALSE,FALSE,,ancient evil,
+190,Kwik Trip,4,,,,3," +1: Create a copy of Kwik Trip Employee (T13) and attach it to a creature. 
+-1: Lose two health and gain two mana.
+-7: Untap all creatures with the Kwik Trip Employee attachment and gain control of them until the end of your turn.",FALSE,TRUE,,ancient evil,
+191,Curse Dredger,2,2,1,,,When played give an Ancient Evil of your choice two power.,TRUE,TRUE,,creature,
+192,Healslut,2,1,2,,,At the start of your turn gain one health.,FALSE,FALSE,,creature,
+193,Crusader,3,3,3,,,"If at least one opponent controls an Ancient Evil and you do not, Crusader gains two strength.",FALSE,TRUE,,creature,
+194,Church,1,1,2,,,"Deathtouch. Reach. Hunt.
+During combat roll a d4. On any result other than a 4 Church misses, resulting in no damage being dealt and deathtouch not activating.",FALSE,FALSE,"Deathtouch, Reach, Hunt",creature,
+195,2BDamned,3,2,3,,,"Tap, pay one mana cap: Search the discard pile for a creature, reveal it, and add it to your hand.",FALSE,TRUE,,creature,
+196,The Master Sword,2,,,,,"Recyclable
+If the intended target of this creatures attack is an ancient evil, this creature gains three strength for this combat.",TRUE,FALSE,Recyclable,attachment ,
+197,Curbstomp,6,,,,,"Destroy an Ancient Evil, creature, or attachment.",FALSE,FALSE,,spell,
+198,Harpie's Birdleg Fan,5,,,,,All creatures you control have flying until end of turn.,FALSE,FALSE,,spell,
+199,All creatures you control have flying until end of turn.,5,,,,,"When played gain 2d4 plus 2 health.
+This card may not bring you over twenty health.",FALSE,TRUE,,spell,
+200,Environmental Activists,8,,,,,"This cards cost is decreased by one for each unequipped attachment you control.
+Reduce a players mana cap by two.",TRUE,TRUE,,spell,
+201,The Lost,3,1,1,,,"The first time The Lost would die prevent that death.
+At the start of your turn the lost gains one strength.",FALSE,FALSE,,creature,
+202,Cup a Joe,2,,,,,"Recyclable
+This creature gains Vigilance.",FALSE,FALSE,Recyclable,attachment ,
+203,Supply Drop,0,,,,,You may immediately play an attachment as though it had flash. It costs one less mana.,TRUE,TRUE,,spell,
+204,Monster House,4,2,5,,,"Defensive.
+Once per turn: You may move another creature into or out of Monster House. While inside the creature is immune to all spells, attacks, and abilities. When monster House is destroyed any creatures inside are forced out. ",FALSE,FALSE,Defensive,creature,
+205,One Punch Man,15,999,999,,,,FALSE,TRUE,,creature,
+206,Hank J. Wimbleton,3,X+1,X+1,,,"When played create a Vengeance token (T14).
+Hank J. Wimbleton's Health and Strength are equal to the number of Vengeance tokens you control plus one.",FALSE,TRUE,,creature,
+207,Panzer,2,5,5,,,"Panzer is tapped when played, and doesn't automatically untap on your turn.
+Tap two other creatures you control: Untap Panzer.",FALSE,FALSE,,creature,`
+208,Painter,5,5,5,,,When played add three copies of Paint (T15) to your hand.,TRUE,TRUE,,creature,
+209,The Crown,2,,,,,This creature gains Taunt.,FALSE,TRUE,Recyclable,attachment ,
+210,Snow Pea,3,2,3,,,"Defender. Cryophilic.
+When Snow Pea damages a creature, freeze that creature.",FALSE,FALSE,"Defensive, Cryophilic",creature,
+211,Eric Cartman,2,1,2,,,Taunt.,TRUE,TRUE,Taunt,creature,
+212,Great Fire Wall,3,,,,,All creatures you control gain defender and 4 health until the start of your next turn.,FALSE,TRUE,,spell,
+213,Vaccine,3,,,,,"Choose a player, reduce all poison counters on that player by two.
+For each poison counter removed this way this spells caster gains four health.",FALSE,FALSE,,spell,
+214,Sandstorm,3,,,3,,"Players do not get their free card draw on their turn.
+If another weather effect is already in play this card costs one more mana.",FALSE,FALSE,,weather,
+215,Racoon,2,1,1,,,"Tap: Shuffle the top card of the discard pile into your deck.
+When Racoon damages a creature attach a copy of Rabies (T16) to that creature.",FALSE,FALSE,,creature,
+216,Crimson 1,9,9,9,,,"Flying.
+When played, place three Cordium Missiles (T17) on the top of a deck of your choice.",FALSE,FALSE,Flying,creature,
+217,The Patriarchy,9,,,,,"Create five Kens (T18) under your control, give three of them horses (T19), and give one of those three a crown (209).",TRUE,FALSE,,spell,
+218,Solaire,3,3,3,,,All creatures you control gain Cryophilic.,FALSE,TRUE,,creature,
+219,Nuclear Waste,5,,,,,"Choose a player, increase each poison counter on them by two. ",FALSE,FALSE,,spell,
+220,Frosty the Snowman,1,1,1,,,"When frozen, you may unfreeze Frosty the Snowman and he gains one strength and one health.",FALSE,TRUE,,creature,
+221,Solar Pillar,5,5,4,,,"When you declare an attack against a player, they burn the top two cards of their deck.
+Tap, along with the other three pillars: Summon the Moon Lord (T20).",FALSE,TRUE,,creature,
+222,Nebula Pillar,5,4,3,,,"When your turn ends, gain three mana.
+Tap, along with the other three pillars: Summon the Moon Lord (T20).",TRUE,FALSE,,creature,
+223,Stardust Pillar,7,4,4,,,"When you play a zero, one, or two cost creature you may summon an additional copy of that creature.",FALSE,FALSE,,creature,
+224,Vortex Pillar,5,5,5,,,"All creatures you control have stealth.
+Tap, along with the other three pillars: Summon the Moon Lord (T20).",FALSE,FALSE,,creature,
+225,Darth Vader,9,8,8,,,"Reach. Multiblock. Vigilance.
+Darth Vader has all of the defensive immunities.
+Once per turn: deal three damage to a target of your choice",FALSE,TRUE,,creature,
+226,Redacted,4,,,,,All players discard their hands.,FALSE,FALSE,,spell,
+227,Gandalf,6,4,4,,,"When you play a spell from your hand that costs one mana or more, rather than discard it you may attach it to Gandalf.
+You may play spells attached to Gandalf. Afterwards, discard that spell.",FALSE,FALSE,,creature,
+228,Inuko,1,0,1,,,When Inuko dies every player immediately resolves Schizophrenia (52) as though they had played it.,TRUE,TRUE,,creature,
+229,Springtrap,2,2,2,,,Two mana: You may resurrect Springtrap as a Vengeful Spirit (T21).,FALSE,TRUE,,creature,
+230,Fireball,6,,,,,Deal 7 damage split across up to three creatures.,FALSE,FALSE,,creature,
+231,Boykisser,3,,,,,"Recyclable
+This creature gains:
+Tap: Give another creature plus two strength and health until end of turn.",FALSE,TRUE,,attachment ,
+232,Baby Rage,0,,,,,"Unaware.
+Choose an opponent. Their mana is set to zero.",FALSE,FALSE,Unaware,spell,
+233,Flood,4,,,2,,"At the start of each players turn they must pay three mana or take four damage.
+If another weather effect is already in play this card costs one more mana.",FALSE,FALSE,,weather,
+234,Dragon Balls,,,,,,"You may have seven of this card in your deck.
+If your hand contains seven copies of Dragon Balls, you win the game. This win cannot be prevented or interrupted.",FALSE,TRUE,,spell,
+235,Piss Potion,1,,,,,"Shuffle the discard pile until a spell is on top. Play that spell for free.
+If Piss Potion is the spell selected the caster takes three damage.",TRUE,FALSE,,spell,
+236,Computer Science Major,1,0,1,,,Computer Science Major cannot be blocked.,FALSE,FALSE,,creature,
+237,Broly,9,7,16,,,"Trample.
+At the start of your turn Broly permanently gains one strength and loses two health.",TRUE,FALSE,Trample,creature,
+238,Reaper,6,5,4,,,Deathtouch. Menace.,TRUE,FALSE,"Deathtouch, Menace",creature,
+239,Naofumi Iwatani,3,0,4,,,Tap: Give a creature plus two health and hexproof until the start of your turn.,FALSE,FALSE,,creature,
+240,Licker,5,5,5,,,Hunt. Menace.,FALSE,TRUE,"Hunt, Menace",creature,
+241,The Joker,4,3,2,,,Taunt. Menace.,FALSE,TRUE,"Taunt, Menace",creature,
+242,Reality Warper Phayze,5,4,5,,,"RWP reduces your maximum hand size by one while played. At the start of your turn summon a Bloon (T3)
+If you control at least four Bloons, all Bloons you control have Hexproof.",FALSE,FALSE,,creature,
+243,The Batter,4,4,4,,,"When the batter deals combat damage, you may bounce a tapped creature of your choice.
+When you play The Batter you may pay an additional four mana to instead play The Batter (T22).",FALSE,FALSE,,creature,
+244,Spindown Dice,4,,,,,"Replace each card in your hand with the card that has an ID number one lower.
+Examples:
+222 -> 221
+T3 -> T2
+P5 -> P4",FALSE,TRUE,,spell,
+245,Credit Card,6,,,,,"Gain 20 mana. At the start of your next turn, you die.",FALSE,TRUE,,spell,
+246,The Demogorgon,7,6,6,,,"Vigilance. Hunt.
+When the Demogorgon destroys a creature, that creatures owner gives you a random card. You may play it immediately for four less mana (minimum cost zero)",TRUE,TRUE,"Vigilance, Hunt",creature,
+247,Phrenapates,5,,,,X,"When you play Phrenapates pay half your health rounded down. Phrenapates gains power equal to the amount of health lost. Place the top seven cards of your deck face down under Phrenapates. At the end of each of your turns Phrenapates loses one power.
+0: Swap your health with Phrenapates power and your hand with the cards under Phrenapates.",TRUE,TRUE,,ancient evil,
+248,Cancer,3,,,,,Resolve one round of poison damage for each player,FALSE,TRUE,,spell,
+249,Infinite Void,5,,,4,,"Creatures cannot be untapped for this cards duration. 
+If another weather effect is already in play this card costs one more mana.",FALSE,FALSE,,weather,
+250,Halo,7,,,,,"Recyclable
+When this creature would die from having zero health, it instead becomes tapped and frozen. ",TRUE,FALSE,,spell,
+251,Momoi,4,3,5,,,"Double Strike
+If you also control Midori, Momoi gains Burn 2",TRUE,TRUE,Double Strike,creature,
+252,Midori,5,5,5,,,"First Strike
+If you also control Momoi, Midori gains Poison 2",TRUE,TRUE,First Strike,creature,
+253,Koyuki,5,5,3,,,At the start of your turn (and when played) roll a D6. Until the start of your next turn Koyuki gains:,FALSE,FALSE,,creature,
+254,M.U.L.E.,4,0,6,,,"Defensive
+At the end of your turn place a card from the top of your deck under M.U.L.E. face down
+When M.U.L.E. dies or has four cards under it at the start of your turn, add all cards under it to your hand.",FALSE,TRUE,Defensive,creature,
+255,Prison Realm,7,,,,,"Place this card in your play Area. At the start of each turn you must pay two mana cap (before refilling) or it's destroyed.
+In three turns, you win the game.",FALSE,TRUE,,spell,
+256,Jogo,6,5,6,,,"Burn
+For each card your opponent burns, Jogo gains one strength permanently",TRUE,FALSE,Burn,creature,
+257,Torchwood,1,,,,,All creatures you control with Burn gain strength equal to their Burn level until end of turn.,FALSE,FALSE,,spell,
+258,California,6,,,,3,"All burn effects are doubled.
++1: Choose an opponent, they burn a card.
+-3: Set a creature of your choice On Fire (T12)",FALSE,TRUE,,ancient evil,
+259,Morflak,6,5,5,,,"Burn 2
+After combat, Morflak applies on Fire (T12) to creatures that he dealt damage to.",FALSE,FALSE,,creature,
+260,The Fire Nation,6,,,,,Each creature without Burn is set on Fire (T12),FALSE,TRUE,,spell,
+261,Astolfo,4,1,5,,,"First Strike.
+When one of your traps activates, you may swap Astolfo's health and strength until end of turn.",TRUE,TRUE,,creature,
+262,Battle Pass,5,,,3,,"For every keyword on a creature you play, you must pay an additional 1 mana. (2 for deathtouch, hexproof, and first strike)
+If another weather effect is already in play this card costs one more mana.",TRUE,TRUE,,weather,
+263,Black Death,4,,,,,"All rat cards gain Plague (T23).
+You gain a poison counter set to two",FALSE,FALSE,,spell,
+264,Sandevisan,4,,,,,"Recyclable
+This creature may attack on your opponent's turn",FALSE,TRUE,Recyclable,attachment ,
+265,The Red Legion,4,,,,,"All creatures with Red on them gain Hexproof, Haste, Trample, and two strength until end of turn.",FALSE,TRUE,,spell,
+266,Macy's Day Parade,2,,,4,,"At the end of each players turn they summon a bloon (T3). 
+If another weather effect is already in play this card costs one more mana.",TRUE,TRUE,,weather,
+267,King Crawler,7,8,4,,,"Trample
+Damage King Crawler takes is permanent.
+Sacrifice a creature: King crawler permanently gains 2 health.
+
+",TRUE,TRUE,Trample,creature,
+268,Junko Enoshima,2,X,X,,,X is equal to the amount of times the effects of Schizophrenia have been resolved,FALSE,TRUE,,creature,
+269,Gideon Argus,2,0,2,,,"Tap, pay 1 mana: Untap a creature or give a creature haste until end of turn",FALSE,TRUE,,creature,
+270,Plasma Grenade,3,,,,,"At the end of your turn, destroy the creature this is attached too",FALSE,FALSE,,attachment ,
+271,Enderman,7,7,6,,,Hexproof. Legion 2.,TRUE,FALSE,"Hexproof, Legion 2",creature,
+272,Ghast,7,6,3,,,Burn 3. Flying. Blast 3,FALSE,TRUE,"Burn 3, Flying, Blast 3 ",creature,
+273,Hybrid,8,5,7,,,First Strike. 5 x Blast 1.,FALSE,FALSE,"First Strike, 5 x Blast 1",creature,
+274,Big Shadow,6,5,7,,,Hexproof. Menace. Stealth,FALSE,FALSE,"Hexproof, Menace, Stealth",creature,
+275,Ichika,7,4,5,,,"When played summon two JTF Mobs (T24)
+At the start of your turn summon a JTF Mob.",TRUE,TRUE,,creature,
+276,May,4,2,2,,,When played add a copy of Totsugeki!!! (T25) to your hand,TRUE,TRUE,,creature,
+277,Fire Breathing Bug,1,,,,,"Recyclable
+This creature gains Burn 3",FALSE,FALSE,Recyclable,attachment ,
+278,Houndstone,4,2,2,,,"For every five cards in the discard pile, Houndstone gains +1/+1",TRUE,FALSE,,creature,
+279,Floating Lights Festival,5,,,3,,At the end of each Players turn they gain 5 hp,FALSE,TRUE,,weather,
+280,Toshinori Yagi,5,1,1,,,At the start of your turn this card transforms into All Might (T26),FALSE,FALSE,,creature,
+281,Eri,2,,,,,"Choose a creature.
+Bounce that creature and then immediately re-play it",FALSE,TRUE,,spell,
+282,Staraptor,4,4,3,,,Flying. First-Strike,FALSE,TRUE,"Flying, First Strike",creature,
+283,Warden,7,6,6,,,"Haste. Menace 2.
+Whenever an opponent plays a card, Warden gains +1/+1 until the end of your turn.",FALSE,FALSE,"Haste, Menace 2",creature,
+284,Wooloo,2,1,1,,,"When played, attach a copy of Fluffy (T27) to this creature.
+When Wooloo dies, any copies of Fluffy attached to it are added to your hand",TRUE,TRUE,,creature,
+285,Sheer Heart Attack,3,,,,,"Activates after your opponent draws a card
+Place a pipe bomb on top of their deck",FALSE,FALSE,,trap,
+286,Robin Hood,1,,,,,"Activates when your opponent burns two mana cap to draw a card.
+They do not draw a card, instead you draw one.",FALSE,TRUE,,trap,
+287,Bait,3,,,,,"You may activate this card when your opponent declares attackers
+Untap all creatures you control, you may play additional creatures before this combat",TRUE,TRUE,,trap,
+288,Balls Joke,0,,,,,"Activates when your opponent says the word “balls”
+Your opponent takes 20 damage",FALSE,FALSE,,trap,
+289,Time Piece,6,,,,,"You may activate this when one of your creatures dies
+Resurrect that creature",FALSE,FALSE,,trap,
+290,Reverse Bear Trap,4,,,,,"Activates when your opponent ends their turn without attacking
+For each untapped creature they control they take two damage.",FALSE,TRUE,,trap,
+291,The Trapper,4,3,3,,,When you play a trap card you may tap The Trapper to summon an additional copy of that trap,FALSE,FALSE,,creature,
+292,Curse of the Tower,4,,,,,"Activates when you take damage
+Destroy all creatures",FALSE,TRUE,,trap,
+293,Ronald Reagan,5,4,5,,,When played: Each copy of Debt (T28) in your hand is destroyed. For each Debt removed this way gain two health,FALSE,TRUE,,creature,
+294,The London Special,3,,,,,"Activates when your opponent plays a creature
+They take damage equal to the cost of that creature",FALSE,FALSE,,trap,
+295,Royal Decree,1,,,,,"Activates when your opponent plays a spell
+Counter that spell. They are refunded half the mana cost, rounded up.",FALSE,FALSE,,trap,
+296,Orcs,3,3,3,,,Legion 2,TRUE,TRUE,Legion 2,creature,
+297,Bunny,1,1,1,,,"Horde. Legion 2.
+Pay one mana cap: Bounce this Bunny",FALSE,FALSE,"Horde, Legion 2",creature,
+298,Zubat,3,2,2,,,Flying. Legion 2.,FALSE,FALSE,"Flying, Legion 2",creature,
+299,Hoptilites,4,4,4,,,Defensive. Multi-Block. Legion 2.,FALSE,TRUE,"Defensive, MultiBlock, Legion 2",creature,
+300,Jevil,5,4,4,,,"Legion 1. Deathtouch.
+When Jevil dies in combat, all other copies of Jevil you control die.",TRUE,FALSE,"Legion 1, Deathtouch",creature,
+301,Necromancer,4,3,3,,,"Whenever an opponent's creature dies, summon a Zombie (T6) under your control.
+Sacrifice a zombie: Necromancer gains +1/+1
+permanently",FALSE,TRUE,,creature,
+302,Carmen,4,2,2,,,"Burn 2
+All of your opponents tapped creatures have one health.",TRUE,TRUE,Burn 2,creature,
+303,Neuralink,1,,,,,"Recyclable
+This creature gains:
+Tap: Gain one mana",TRUE,FALSE,Recyclable,attachment ,
+304,Radroach,1,1,1,,,"Flying. Poison
+As an additional cost to play Radroach, discard a card.",FALSE,FALSE,"Flying, Poison",creature,
+305,Shoto Todoroki,5,4,3,,,"Burn 2.
+When Shoto Todoroki damages a creature, that creature becomes tapped and frozen.",FALSE,TRUE,Burn 2,creature,
+306,Katsuki Bakugo,4,2,3,,,"Blast 2
+Blast 2",FALSE,TRUE,"Blast 2, Blast 2",creature,
+307,Power Armor,4,,,,,"Recyclable
+This creature's base stats are changed to 5/5",FALSE,FALSE,Recyclable,attachment ,
+308,Joker,2,2,2,,,"When you play another creature, you may play that creature on top of Joker as though attaching him to it.
+If you do, add Joker's stats to that creature. When that creature dies, Joker doesn't die.",FALSE,TRUE,,creature,
+309,The Nipton Lottery,7,,,,,"Choose a creature.
+All creatures except for that one are destroyed.
+All players who do not control that creature Burn 7",FALSE,TRUE,,spell,
+310,The Courier,5,4,4,,,"When you would draw a card, you may instead choose to give The Courier +1/+1 permanently.",FALSE,TRUE,,creature,
+311,Prometheus,4,,,,,"Draw four cards, then shuffle two cards back into your deck.",FALSE,TRUE,,spell,
+312,Castform,3,2,2,,,"As long as a weather effect is in play, you can add one of the following to Castform:
+1: Burn 2
+2: Castform freezes creatures that it deals damage to and gains Cryophilic.
+3: Castform gains +2/+2",FALSE,FALSE,,creature,
+313,Look at the Time,4,,,2,,"The person who played this card cannot attack or be attacked as long as it is in play.
+If another weather effect is already in play this card costs one more mana.",FALSE,FALSE,,weather,
+314,Weather Balloon,2,0,2,,,"Flying
+At the start of your turn (after mana refill), you may choose to pay two mana to ignore any weather effects in play until the start of your next turn.",TRUE,FALSE,Flying,creature,
+315,Mayoi Hachikuji,2,1,1,,,"At the start of your turn, choose an opponent's creature. Swap control of this creature and that one.",FALSE,TRUE,,creature,
+316,Grimm,8,8,8,,,"When Grimm destroys an opponent's creature it's owner loses one mana cap. Negative mana cap causes instant death.
+Sacrifice a creature you control, Grimm gains +2/+2 until end of turn.",FALSE,TRUE,,creature,
+317,Alice,3,0,1,,,"When you are healed, heal double that amount. This effect doesn't stack.",TRUE,TRUE,,creature,
+318,Squamata,0,,,,,"As an additional cost to play this card pay two mana cap.
+Tap up to five creatures you control. Gain one mana cap for each creature tapped this way.",FALSE,TRUE,,spell,
+319,Stand Arrow,1,,,,,Add a random Tarot Card to your hand.,TRUE,FALSE,,spell,
+320,Jotaro Kujo,7,5,5,,,"Trample. First Strike.
+When Jotaro Kujo is played, tap and freeze all other creatures.",TRUE,TRUE,"Trample, First Strike",creature,
+321,Sonic,5,4,4,,,Haste. First Strike. Taunt.,FALSE,TRUE,"Haste, First Strike, Taunt",creature,
+322,Shadow,7,4,4,,,"Haste. First Strike. Double Strike. Hunt. Hexproof. Blast 1. Blast 1.
+Creatures Shadow blasts are tapped.",FALSE,TRUE,"Haste, First Strike, Double Strike, Hunt, Hexproof, Blast 1, Blast 1",creature,
+323,Infinite,2,,,,2,"Once per turn, if you draw a card that costs 4 or more mana, you may reveal it, shuffle it back into your deck, and draw another card.
++1: Draw a card, then shuffle a card back into your deck. 
+-5: Draw cards until you draw a creature costing 4 or more mana, you may play that creature for free. Then shuffle as many cards from your hand into your deck as you'd like.",TRUE,TRUE,,ancient evil,
+324,Sucker Punch,X,,,,,"Your starting hand contains two less cards for each copy of Sucker Punch in your deck. After determining your starting hand, search your deck and add all copies of sucker punch to your hand, then shuffle.
+This cards cost is equal to your current mana cap.
+Deal one damage to a target creature and tap it.",FALSE,TRUE,,spell,
+325,Misty,0,,,,,"Flip a coin until you get tails. For each heads, gain one mana.",FALSE,TRUE,,spell,
+326,Doomer,1,1,1,,,"When you flip a coin and it lands on tails, Doomer gains +1/+1 permanently",TRUE,FALSE,,creature,
+327,Joseph McCarthy,2,,,,,"Your opponent reveals their hand. If any of their cards have red in the art, burn that card and they take 3 damage.",FALSE,FALSE,,spell,
+328,Rap Battle,2,,,,,"Choose an opponent, then flip a coin. On a heads, destroy one of their creatures. On a tails, they destroy one of your creatures.",FALSE,TRUE,,spell,
+329,Little Match Girl,2,1,1,,,"Tap: Choose another creature you control. It gains 2 strength and trample. After combat, it dies.",FALSE,FALSE,,creature,
+330,Fudanshi Dream,4,,,,,Choose another player. Set both of your hp's to the average of their current values.,FALSE,FALSE,,spell,
+331,Head Empty,1,,,,,This creature ignores all text other than the base stats on other creatures.,TRUE,FALSE,,attachment ,
+332,Chaos 0,4,1,1,,,"At the start of your turn, this card transforms into Chaos 1 (T29)",TRUE,FALSE,,creature,
+333,The Pact,0,,,,,"You may only include one copy of this card in your deck.
+When played, keep this card on the field.
+All creatures you control have doubled strength. When a creature you control dies, take three damage.",FALSE,TRUE,,spell,
+334,Again!!!,0,,,,,"Unaware.
+As an additional cost to play this card, pay one mana cap.
+If during your combat phase this turn you destroyed at least one of your opponent's creature, untap all your creatures and gain another combat phase.",FALSE,TRUE,,spell,
+335,Fujoshi,1,1,1,,,"Whenever one of your traps is activated, Fujoshi gains +1/+1 permanently.",FALSE,TRUE,,creature,
+336,China's Final Warning,0,,,,,"You may activate this trap whenever you'd like.
+It does nothing.",TRUE,TRUE,,trap,
+337,Felix Argyle,4,3,3,,,"Whenever one of your traps activates, you may heal two HP.",FALSE,FALSE,,creature,
+338,Ui,3,2,2,,,"Tap, pay two mana: You may play a creature for half its mana cost, rounded down.",TRUE,TRUE,,creature,
+339,Kokona,3,,,,,Draw a card and heal 3 health.,TRUE,TRUE,,spell,
+340,Toxicroak,4,3,3,,,"Poison 1
+If your opponent has at least one poison counter on them, Toxicroak gains haste and first strike.",FALSE,TRUE,Poison 1,creature,
+341,Plague Doctor,3,1,2,,,"For each point of HP you are healed, you may do one damage to a target of your choice.",FALSE,TRUE,,creature,
+342,Two Face,1,2,2,,,"At the start of your turn and when Two Face is played, flip a coin. If it lands on tails, tap Two Face.",FALSE,TRUE,,creature,
+343,Guilty Spark,2,X,3,,,"Reach
+Guilty Spark's strength is equal to your current mana value.",TRUE,FALSE,Reach,creature,
+344,Bazelgeuse,5,4,4,,,"Flying. Blast 1
+When you declare an attack with Bazelgeuse, create an Explosive Scale (T34).",TRUE,TRUE,"Flying, Blast 1",creature,
+345,Illya,2,2,2,,,"When you play an attachment onto Illya, you may pay two mana to create a copy of that attachment also attached to Illya.",TRUE,TRUE,,creature,
+346,Miyu,3,3,3,,,All your attachments cost 1 less mana to play.,TRUE,FALSE,,creature,
+347,Chloe,4,3,3,,,Chloe gains +1/+1 for each floating attachment under your control.,TRUE,TRUE,,creature,
+348,WALL·E,1,0,1,,,"You may discard a floating attachment you control to gain two mana.
+Pay two mana: Discard a floating attachment your opponent controls",FALSE,TRUE,,creature,
+349,Sticky Fingers,2,,,,,"Activates when an opponent's creature dies with an attachment.
+Move that attachment to your hand. If there were multiple, you may choose which one is stolen.",FALSE,FALSE,,trap,
+350,"But Wait, There's More!",2,,,,,"Activates when another one of your traps activates.
+Choose one:
+1) Do 2 damage to a target of your choice
+2) Heal 3 health
+3) Draw a card",FALSE,TRUE,,trap,
+351,Fallenshadow,3,,,,2,"Whenever Schizophrenia (52) is resolved, Fallenshadow gains two power.
+-3: Summon a Husband (T36).
+-7: Search your deck. For each copy of Schizophrenia, deal two damage to a player of your choice. Afterwards shuffle your deck.",TRUE,FALSE,,ancient evil,
+352,200cc,1,,,3,,"Mana cap is raised by two each round instead of one.
+If another weather effect is already in play this card costs one more mana.",FALSE,FALSE,,weather,
+353,The End,0,,,,,"As an additional cost to play this card, pay 10 mana cap.
+Whoever has the most HP wins the match.",FALSE,TRUE,,spell,
+354,The Dome,3,,,,,"Play this while playing a weather effect.
+The weather effect doesn't apply to other players.",TRUE,FALSE,,spell,
+355,Kulu-Ya-Ku,2,2,1,,,"When played, take a card from your opponent's hand and place it face down under Kulu-Ya-Ku. When Kulu-Ya-Ku is defeated return the card to them.",TRUE,TRUE,,creature,
+356,Iris,2,0,2,,,"Whenever an opponent burns a card, heal one HP",TRUE,TRUE,,creature,
+357,Goku,1,1,1,,,"For each creature in play that costs five or more mana, Goku gains +2/+2",FALSE,FALSE,,creature,
+358,Darkrai,6,3,3,,,"Once per turn: Tap up to two creatures an opponent controls.
+For each tapped creature controlled by your opponent, Darkrai gains +1/+1",TRUE,TRUE,,creature,
+359,Cresselia,6,3,3,,,"Once per turn: Tap up to two creatures you control. For each creature tapped this way heal two health.
+For each tapped creature you control, Cresselia gains +1/+1",FALSE,FALSE,,creature,
+360,Jack Frost,3,1,1,,,"Cryophilic
+Pay two mana: Freeze a creature.",FALSE,FALSE,Cryophilic,creature,
+361,Black Frost,4,3,3,,,"Cryophilic. Poison X
+X is equal to the number of creatures that are currently frozen (maximum value: 4).",TRUE,TRUE,"Cryophilic, Poison X",creature,
+362,Ugly Bastard,1,,,,,Destroy a creature that costs two or less mana. It's owner takes 1 damage.,FALSE,FALSE,,spell,
+363,Pajama Party,5,,,,,Create copies of all creatures you control that cost two or less mana.,TRUE,TRUE,,spell,
+364,Spirit Bomb,3,,,,,"You may tap as many creatures that you control as you like.
+Deal X damage to a target of your choice, where X is twice the number of creatures that you tapped.",FALSE,FALSE,,spell,
+365,Centrism,4,,,,,Shuffle 20 copies of Balance (T35) into your deck.,FALSE,FALSE,,spell,
+366,Shinobu,1,1,1,,,Lifesteal,FALSE,FALSE,Lifesteal,creature,
+367,Thieves Tools,2,,,,,"Reveal a hidden card you don't control. If it's a trap, destroy it and draw two cards. If it is a creature in stealth, that creatures owner must immediately pay for the creature.",FALSE,FALSE,,spell,
+368,Bag of Holding,3,0,1,,,"Your maximum hand size is increased by two.
+If you control two Bags of Holding, destroy both and summon a Sentient Black Hole (T37).",FALSE,TRUE,,creature,
+369,Blacksmith,4,3,4,,,Your floating attachments cost two less mana (minimum cost zero).,TRUE,FALSE,,creature,
+370,Batman,5,5,5,,,Haste. Vigilance. Stealth,FALSE,TRUE,"Haste, Vigilance, Stealth",creature,
+371,Donald Trump,1,1,1,,,"Pay three mana: Summon a copy of Stocks (130). Players who don't control Donald Trump may also use this ability.
+Tap: Resolve a coin flip for all copies of Stocks.",FALSE,FALSE,,creature,
+372,Illusion,2,,,,,"You may activate this trap when an attack is declared.
+Swap a creature you control for one in your hand that costs the same or less mana.",FALSE,TRUE,,trap,
+373,George Droyd,5,2,5,,,"Triple Strike.
+When George Droyd damages a player, they must pay you one mana, this can cause Debt (T28) in the event they have zero mana.",FALSE,TRUE,Triple Strike,creature,
+374,Leaf,3,,,,1," +2: Search the discard pile for a spell, reveal it, and shuffle it into your deck. 
+-2: Search your deck for a spell, reveal it, and add it to your hand.
+-5: The next spell or creature you play this turn costs half the mana, rounded down. ",FALSE,TRUE,,ancient evil,
+375,Pea-Nut,1,2,2,,,Defensive.,TRUE,FALSE,Defensive,creature,
+376,DDT,3,2,2,,,"Hexproof. Haste.
+This card counts as a Bloon (T3)",FALSE,FALSE,"Hexproof, Haste",creature,
+377,Blue Bloon,1,1,1,,,"This card counts as a Bloon (T3)
+When Blue Bloon dies you may resurrect it as a Bloon.",FALSE,FALSE,,creature,
+378,Skarbrand,6,5,5,,,"Trample. Burn 3.
+Sacrifice a creature you control: Skarbrand deals 1 damage to a creature of your choice and gains +1/+1 until end of combat.",FALSE,TRUE,"Trample, Burn 3",creature,
+379,Pied Piper,2,0,1,,,"Pay two mana: Summon a Rat (T1)
+Sacrifice X creatures you control: Destroy a creature with mana cost X",TRUE,TRUE,,creature,
+380,Black Suit,3,0,1,,,Sacrifice a creature: Gain one mana.,FALSE,FALSE,,creature,
+381,King Frost,5,4,4,,,"Cryophilic.
+When you apply freeze to a creature, it lasts for two turns instead of one.
+Frozen creatures have -1 health.",FALSE,FALSE,Cryophilic,creature,
+382,Michael K,3,3,3,,,"If Michael K is the only creature you control, he has first strike.",TRUE,TRUE,,creature,
+383,Ibuki,2,1,1,,,Tap: Give all other creatures you control plus one strength until end of turn. This ability also activates when Ibuki is tapped by another one of your cards.,FALSE,TRUE,,creature,
+384,Rio,0,,,,,"As an additional cost to play this spell, pay one mana cap.
+Reveal a card in your hand, add a copy of it to your hand.",FALSE,TRUE,,spell,
+385,Rose,3,2,2,,,"When played, attach Goat (T38) to a creature",TRUE,TRUE,,creature,
+386,New World Order,7,,,3,,"Poison counters do not decrease after their damage is resolved.
+If another weather effect is already in play this card costs one more mana.
+",FALSE,FALSE,,weather,
+387,King Crab,4,3,8,,,"Hexproof
+King Crab cannot be used to block.
+“What are you gonna do?”",FALSE,FALSE,,creature,
+388,Kuuro the Cautious,5,4,5,,,"Your opponent plays with their hand revealed and their trap cards face up.
+You may search their deck at any time.",TRUE,FALSE,,creature,
+389,Kuze the Passing Disaster,3,0,4,,,"When played, attach a copy of Nastique the Quiet Singer (T39) to Kuze the Passing Disaster.",FALSE,FALSE,,creature,
+390,Higuare the Pelagic,7,1,6,,,Poison 3. Deathtouch. Double Strike. Trample.,FALSE,FALSE,"Poison 3, Deathtouch, Double Strike, Trample",creature,
+391,Pan-Chan,2,2,2,,,Poison,TRUE,TRUE,Poison,creature,
+392,Laser Bean,4,3,3,,,Pierce.,FALSE,TRUE,Pierce,creature,
+393,Hover Goat-3000,2,1,1,,,"When played, give all creatures you control haste until end of turn.
+When you declare an attack involving Hover Goat-3000, choose another creature you control, it gains one strength until end of combat.",TRUE,TRUE,,creature,
+394,Peppino,3,1,1,,,"Haste.
+When you declare an attack involving Peppino, he gains +1/+1. If you end your turn without attacking using Peppino, his stats return to 1/1.
+If Peppino's stats are at least 3/3, he gains trample.",TRUE,FALSE,Haste,creature,
+395,Rain Dance,1,,,,,Increase the duration of the current weather effect by two turns.,TRUE,TRUE,,spell,
+396,Potato Mine,1,,,,,"Activates when your opponent declares an attack.
+Deal three damage to one of their attackers.",FALSE,FALSE,,trap,
+397,Alus the Star Runner,8,6,6,,,"When played, search your deck and/or the discard pile for up to three attachment cards. Attach them to Alus the Star Runner, then shuffle your deck.",FALSE,TRUE,,creature,
+398,Red Hood,6,6,6,,,"Hunt. Vigilance.
+After a Hunt, Red Hood gains -1/-1 until end of turn and may Hunt again.
+Tap, and you do not control Poro (T40): Summon Poro.",FALSE,TRUE,"Hunt, Vigilance",creature,
+399,Yin and Yang,3,,,,2," +1: Attach Light Chi (T41) to a creature that doesn't have any Dark Chi. 
++1: Attach Dark Chi (T42) to a creature that doesn't have any Light Chi.
+-5, you must control an equal number of creatures with Light and Dark Chi: Summon a Dragon Warrior (T43), move all Chi to him.",FALSE,FALSE,,ancient evil,
+400,New Game+,2,,,3,,"All creatures have hunt. All damage done to creatures is permanent. You may target a player or ancient evil using hunt as long as your opponent doesn't control a creature with taunt or defender.
+If another weather effect is already in play this card costs one more mana.",TRUE,TRUE,,creature,
+401,Doom Shroom,0,,,,,"As an additional cost to play this card, pay two mana cap.
+Destroy all creatures and summon a Crater (T48)",FALSE,TRUE,,spell,
+402,Ice Shroom,4,,,,,Choose an opponent. Tap and freeze all creatures and ancient evils they control,FALSE,FALSE,,spell,
+403,Mana Addict,2,1,3,,,"When you play a spell, Mana Addict gains two strength until end of turn.",TRUE,TRUE,,creature,
+404,Luna's Pocket Galaxy,7,,,,,"When played, keep this spell as a permanent.
+All creatures in your hand cost one mana.",TRUE,FALSE,,spell,
+405,Cloaker,2,2,2,,,"Stealth.
+When revealed from stealth, gain first strike until end of turn.",FALSE,FALSE,Stealth,creature,
+406,Stalin,1,,,,,"Activates when your opponent gains mana higher than their mana cap.
+At the start of your next turn, gain mana equal to the highest mana overflow they reached.",FALSE,FALSE,,trap,
+407,Invisible Woman,3,1,1,,,"Stealth
+When one of your creatures is revealed from Stealth, it gains +1/+1 permanently.",TRUE,FALSE,Stealth,creature,
+408,Mysterio,2,2,2,,,"Stealth. Legion 2 (activates when unstealthed)
+Tap: Choose a creature you control, gain mana equal to its cost minus one. That creature enters Stealth.",FALSE,FALSE,"Stealth, Legion 2",creature,
+409,Venom Snake,5,4,4,,,"Stealth.
+When a creature you control is destroyed, you may burn that creature to unstealth Venom Snake for two less mana.",FALSE,FALSE,Stealth,creature,
+410,Luna Snow,3,2,2,,,"Cryophilic.
+Tap: Gain HP equal to Luna Snow's strength.",TRUE,TRUE,Cryophilic,creature,
+411,Shatter,3,,,,,Destroy a frozen creature.,FALSE,FALSE,,spell,
+412,Shinra,2,2,2,,,Haste. Burn.,FALSE,FALSE,"Haste, Burn",creature,
+413,Arthur,4,3,3,,,Burn 2. First Strike.,FALSE,TRUE,"Burn 2, First Strike",creature,
+414,Maki,3,3,3,,,"Burn 2
+Burn a card in your hand: Summon two Fire Spirits (T45)",TRUE,FALSE,Burn 2,creature,
+415,Mesugaki,2,1,1,,,"Taunt
+Cannot be blocked by creatures that cost 3 mana or less.",FALSE,TRUE,Taunt,creature,
+416,Ame,4,3,3,,,"Deathtouch. Poison.
+At the start of your turn, Ame transforms into OMGKawaiiAngel (T46)",TRUE,TRUE,"Deathtouch, Poison",creature,
+417,Flowey,1,4,4,,,At the end of your turn take two damage or Flowey is destroyed.,FALSE,FALSE,,creature,
+418,Aru,4,0,4,,,Blast 3,TRUE,TRUE,Blast 3,creature,
+419,Loli God Requiem,7,,,,,"When played, keep this spell as a permanent.
+All creatures you control that cost 2 or less mana gain +3/+3",FALSE,TRUE,,spell,
+420,Sprigatito,2,,,,,When this creature would untap you must pay two mana or it does not (after mana refill).,FALSE,FALSE,,attachment ,
+421,Infernape,4,4,4,,,"Burn
+When Infernape is blocked, targeted player burns 4.",FALSE,TRUE,Burn,creature,
+422,Kid Rex,6,6,4,,,"Haste. Reach. Double Strike.
+Any damage dealt to Kid Rex is permanent.",FALSE,FALSE,"Haste, Reach, Double Strike",creature,
+423,Timberlands,2,,,,,"Activates when an opponent's trap activates.
+Counter that trap, they still pay the mana cost.",FALSE,FALSE,,trap,
+424,Wondrous Wisdomball,2,,,,,"When played for the first time, keep this spell as a permanent.
+At the start of your turn, roll a D6. On a roll of at least a five, gain a random piece of helpful advice.
+Each subsequent cast of this spell upgrades the permanent by reducing the required roll by one, but costs two additional mana to cast.",TRUE,TRUE,,spell,
+425,FUKKIRETA,3,,,,,"Choose another player. 
+You and that player draw two cards and gain five health.",TRUE,TRUE,,spell,
