@@ -1,0 +1,1 @@
+from server import app  # Assuming your Bottle app is in server.py
